@@ -1,9 +1,11 @@
 // Onko·Pharm Service Worker — Offline-First für die Lern-App
-const CACHE_VERSION = 'onko-pharm-v2';
+const CACHE_VERSION = 'onko-pharm-v3';
 const PRECACHE_URLS = [
   './',
   './onko-lern-app.html',
   './manifest.json',
+  './icon-192.png',
+  './icon-512.png',
 ];
 
 // Install: pre-cache the app shell (do NOT auto-skipWaiting — wait for user consent)
